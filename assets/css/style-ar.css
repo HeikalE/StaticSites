@@ -1,0 +1,129 @@
+body {
+    direction: rtl;
+}
+
+.navbar a{
+    font-size: large;
+}
+
+.section-label{
+    font-weight: 700 !important;
+    font-size: large !important;
+}
+
+.btn-watch-video,
+#header-watch-video-btn-label{
+    margin-right: .5rem;
+}
+
+#hero .high-note,
+#hero .decription-note{
+    text-align: right;
+}
+
+.hero-containter-section{
+    flex-direction: row-reverse;
+}
+
+.menu .menu-link-items .nav-link h4,
+.stats-counter .stats-item p {
+    font-weight: 600;
+}
+
+.stats-counter .stats-item p {
+    font-size: x-large;
+}
+
+.menu .menu-link-items {
+    padding: 0;
+    margin-bottom: 2.5rem;
+}
+
+.menu .tab-content .row{
+    margin-top: 0;
+}
+
+.menu .tab-content .menu-item {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+#menu-item-divider {
+    display: none;
+}
+
+.menu .tab-content .menu-item .img-fluid {
+    width: 75%;
+}
+
+.menu .tab-content .menu-item .menu-img {
+    margin-bottom: 10px;
+}
+
+.menu .tab-content .menu-item h4 {
+    font-weight: 600;
+}
+
+.menu .tab-content .menu-item h4,
+.menu .tab-content .menu-item .ingredients,
+.menu .tab-content .menu-item .price {
+    margin-bottom: 0px;
+}
+
+.testimonials .testimonial-item .quote-icon-right{
+    top: unset;
+}
+
+.menu-btn a{
+        font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: var(--color-primary);
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+
+.menu-btn a{
+  background: rgba(206, 18, 18, 0.8);
+  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+}
+
+@media (max-width: 1265px) {
+
+    #menu-item-divider {
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 80%;
+        margin-right: 10%;
+    }
+
+    #menu-item-divider:last-child {
+        display: none;
+    }
+
+    .menu .tab-content .menu-item {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+
+
+}
+
+.contact .info-item .icon{
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.footer .social-links{
+    margin-right: -10px;
+}
+
+.footer .icon{
+    margin-left: 15px;
+}
